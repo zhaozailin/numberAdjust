@@ -1,5 +1,5 @@
 # numberAdjust
-基于bootstrap的数字调节组件
+演示地址：http://codepen.io/zhaozailin/pen/OXQXjB
 
 ## html模板
 ~~~html
