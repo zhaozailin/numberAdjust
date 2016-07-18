@@ -18,7 +18,7 @@
 }
 
 .num-adjust-up {
-    height: 14px;
+    height: 13px;
     padding-left: 6px;
     line-height: 12px;
     transform: rotate(180deg);
@@ -37,10 +37,6 @@
     line-height: 13px;
     padding-left: 6px;
     border-top: 1px solid #ccc;
-}
-
-.num-adjust-up .caret {
-
 }
 
 .num-noselect {
