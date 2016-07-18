@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../libs/bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../src/css/numberAdjust.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div style="margin:100px auto" class="num-adjust-wrapper num-noselect" id="t">
+        <input type="number" class="form-control input-sm" min="1" max="4" value="1" maxlength="5">
+        <div class="num-adjust-block">
+            <div class="num-adjust-up">
+                <span class="caret num-noselect"></span>
+            </div>
+            <div class="num-adjust-down">
+                <span class="caret num-noselect"></span>
+            </div>
+        </div>
+    </div>
+
+
+<script src="../libs/jquery.js"></script>
+<script src="../libs/bootstrap/bootstrap.js"></script>
+<script src="../src/js/numberAdjust.js"></script>
+
+<script>
+    numberAdjust.initUI("t");
+</script>
+</body>
+</html>

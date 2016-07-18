@@ -1,0 +1,53 @@
+.num-adjust-wrapper {
+    width: 150px;
+    height: 30px;
+    position: relative;
+}
+
+.num-adjust-block {
+    width: 26px;
+    height: 30px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    cursor: pointer;
+}
+
+.num-adjust-up {
+    height: 14px;
+    padding-left: 6px;
+    line-height: 12px;
+    transform: rotate(180deg);
+}
+
+.num-adjust-down:hover {
+    background-color: #eee;
+}
+
+.num-adjust-up:hover {
+    background-color: #eee;
+}
+
+.num-adjust-down {
+    height: 15px;
+    line-height: 13px;
+    padding-left: 6px;
+    border-top: 1px solid #ccc;
+}
+
+.num-adjust-up .caret {
+
+}
+
+.num-noselect {
+     -webkit-touch-callout: none; /* iOS Safari */
+     -webkit-user-select: none;   /* Chrome/Safari/Opera */
+     -khtml-user-select: none;    /* Konqueror */
+     -moz-user-select: none;      /* Firefox */
+     -ms-user-select: none;       /* Internet Explorer/Edge */
+     user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+ }
